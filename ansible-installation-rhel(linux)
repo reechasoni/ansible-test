@@ -1,0 +1,7 @@
+$ sudo yum-config-manager --enable epel
+
+$ sudo yum repolist
+
+$ sudo amazon-linux-extras install ansible2 -y
+
+$  ansible --version
